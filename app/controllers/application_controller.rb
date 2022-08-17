@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
   def hello
-    render html: "Hello there, how was your day? :)"
+    render html: "Get out of my site NOW!!"
+    render image_tag("Arnie.png")
   end
 end
